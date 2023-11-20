@@ -6,5 +6,8 @@ for i in range(n):
     student_dict.update({student:percentage})
 print(student_dict)
 del_student = input('Enter the name you would like to delete: ')
-del student_dict[del_student]
-print(student_dict)
+if(del_student in student_dict):
+    del student_dict[del_student]
+    print(student_dict)
+else:
+    print('Record doesn\'t exist.')
