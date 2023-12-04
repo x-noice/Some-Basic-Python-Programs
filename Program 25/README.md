@@ -4,4 +4,4 @@ Write a program in Python that calculates the following:
 • Circumference of a circle<br>
 • Area of a rectangle<br>
 • Perimeter of a rectangle<br>
-Create respective modules for each of the operations and call them separately using a menu-driven program.
+Create respective modules for each of the shapes and create respective functions for each operation and call them separately using a menu-driven program.
