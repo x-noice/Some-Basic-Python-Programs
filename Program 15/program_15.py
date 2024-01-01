@@ -5,7 +5,7 @@ while True:
         temp_str = ''
         str_1_copy = str_1.lower()
         for i in range(len(str_1_copy)-1,-1,-1):
-            temp_str = str_1_copy[i]+temp_str
+            temp_str = temp_str + str_1_copy[i]
         if(temp_str==str_1_copy):
             print('The string is a palindrome.')
         else:
